@@ -21,10 +21,8 @@ age = int(input("Enter your age: "))
 
 if age < 13:
     print("You are Child")
-elif age > 14:
+elif 14 < age > 20:
     print("You are Teenager")    
-elif age < 20:
-    print("You are Teenager")
 else:
     print("You are Adult") 
 
@@ -46,8 +44,16 @@ else:
 
 price = int(input("Enter price: "))
 
-if price < 50:
-    print()
+if price > 50:
+    discount1 = price - 10
+    print(price - discount1)
+elif 20 < price < 50:
+    discount2 = price - 5
+    print(price - discount2)
+else:
+    print(price)   # No discount  
+
+    
 
 
        
