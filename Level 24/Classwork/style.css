@@ -1,0 +1,53 @@
+
+
+button {
+
+    color: blue;
+
+}
+
+
+.btn-2 {
+    color: red;
+}
+
+
+#butn-1 {
+    color: brown;
+}
+
+
+#butn-2 {
+    color: yellow;
+}
+
+
+#butn-3 {
+    color: green;
+}
+
+
+#butn-4 {
+    color: violet;
+}
+
+
+#butn-5 {
+    color: yellowgreen;
+}
+
+
+
+
+
+
+
+
+#Lorem {
+    color: rgb(190,10,10);   /* ანიჭებს ფერს */
+    font-family: cursive;   /* ანიჭებს ტექსტის სტილს */
+    font-size: 3em;   /* ანიჭებს ტექსტის ზომას ვებ საიტზე 1 em = 16px */
+    font-weight: 700;   /* ანიჭებს ვებ საიტზე შემოტანილ ტექტს გამჭირვალებას, ასოების ზომას */ 
+    /* 100 - თითქმის გამჭირვალე , 400 - ნორმალური , 700 - მუქი , 900 - ყველაზე მუქი . */
+    font-style: italic;
+}

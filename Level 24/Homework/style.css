@@ -1,0 +1,57 @@
+.h2 {
+    color: brown;
+    font-family: Arial; 
+    font-weight: 700;
+    font-size: 3em;
+    font-style: italic;
+}
+
+#p1 {
+    color: red;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 2em;
+    font-style: italic;
+}
+
+#p2 {
+    color: greenyellow;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 2em;
+    font-style: italic;
+}
+
+#p3 {
+    color: green;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 2em;
+    font-style: italic;
+}
+
+#aboutme {
+    color: blue;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 2em;
+    font-style: italic;
+}
+
+
+/*
+color - ცვლის ტექსტის ფერს ვებ საიტზე და არა მარტო.
+font-family - ცვლის ტექსტის სახეს, შრიფტს ჩვენთვის სასურველზე
+font-weight - ცვლის ტექსტის გამჭირვალებასა და სიმუქეს.
+font-size - ცვლის ტექსტის ზომას.
+font-style - ცვლის ტექსტის სახეს, ხდის დახრილს ან ნორმანულს.
+
+    color: blue; - მივეცით ტექსტს ლურჯი ფერი
+    font-family: cursive; - შევუცვასლეთ ტექსტს სახე
+    font-weight: 500; - შევუცვალეთ ტექტს გამჭირვალება 
+    font-size: 2em; - შევუცვალეთ ტექსტს ზომა
+    font-style: italic; - შევუცვალეთ ტექსტის ასოებს დახრილობა.
+    
+*/
+
+    
