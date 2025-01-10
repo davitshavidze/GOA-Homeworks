@@ -1,0 +1,36 @@
+
+
+#Lorem1 {
+    color:crimson;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+#Lorem2 {
+    color:blue;
+    font-family: cursive;
+    text-align: center;
+    word-spacing: 15px;
+}
+
+#Lorem3 {
+    color:brown;
+    font-family: cursive;
+    text-shadow: 10px , 20px , 30px , bisque;
+    line-height: 2;
+}
+
+/* 
+Text-transform - ვცვლით ტექსტში და ტექსტის გამომდინარე სიტყვებში ასოების სიდიდეს ჩვენი მოსაზრების მიხედვით. გადაეცემა 3 მნიშვნელობა: Lowercase , Uppercase , Capitalize.
+
+Text-align - ვცვლით ვებ-საიტზე შემოტანილი ტექსტის ადგილმდებარეობას ჩვენი აზრის გამომდინარე. გადაეცემა 3 მნიშვნელობა: Center , Left , Right.
+
+Word-spacing - ქმნის დაშორებას ტექსტსა და სიტყვებში ასო-ბგერებს შორის დაშორებას. გადაეცემა  Value - რიცხვითი მნიშვნელობა number + px
+
+text-shadow - უქმნის ტექსტში სემოტანილ სიტყებს ჩრდილს. გადაეცემა მნიშვნელობა 5px 10px 15px color.
+
+line-height - გადაეცემა რიცხვითი მნიშვნელობა, რომელიც ზრდის ფრაზებს შორის სიმაღლეს.
+
+text-dexoration - ცვლის ტექსტის ფორმატს, გადაეცემა 3 მნიშვნელობა: underline , overline , none.
+
