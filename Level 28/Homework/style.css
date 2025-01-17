@@ -1,0 +1,37 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.parent
+{
+    width: 900px;
+    height: 550px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+}
+
+
+img{
+    width: 130%;
+    height: 100%;
+}
+
+.price
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.btn{
+    color:darkcyan;
+}

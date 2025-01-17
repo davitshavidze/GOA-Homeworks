@@ -1,0 +1,25 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.div1 {
+    width: 350px;
+    height: 250px;
+    border: 15px solid green;
+    border-radius: 15px;
+    background-color: red;
+    margin: 200px 0px 50px 300px;
+}
+
+.div2 {
+    width: 450px;
+    height: 300px;
+    border: 20px darkblue double;
+    border-radius: 20px;
+    background-color: blue;
+    margin: 250px 0px 100px 250px;
+}
