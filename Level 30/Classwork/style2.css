@@ -1,0 +1,24 @@
+
+
+body {
+    background-color: rgb(47, 134, 185);
+}
+
+h1 {
+    color:White;
+    margin-left: 50px;
+    font-family: Arial;
+}
+
+li {
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    list-style-type: disc;
+
+
+}
+
+p {
+    background-color: antiquewhite;
+}
+

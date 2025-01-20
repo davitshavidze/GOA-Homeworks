@@ -1,0 +1,51 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+  
+}
+
+.flashcard {
+    width: 200px;
+    height: 300px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+  
+}
+
+.flashcard h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.flag {
+    width: 150px;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.flag div {
+    flex: 1;
+}
+
+.country {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+img {
+    background-position: center;
+}
