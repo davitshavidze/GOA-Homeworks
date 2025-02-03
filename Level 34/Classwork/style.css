@@ -1,0 +1,63 @@
+/* Default */
+
+#a1 {
+    color:aqua;
+}
+
+#a2 {
+    color: brown;
+}
+
+/* Link */
+
+#a1:link {
+    color: black;
+    font-family: cursive;
+}
+
+#a2:link {
+    color:rgb(145, 145, 49);
+    font-family: monospace;
+}
+
+/* Visited */
+
+#a1:visited {
+    color: bisque;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+#a2:visited {
+    color: green;
+    font-weight: 350;
+    letter-spacing: 5px;
+}
+
+/* active */
+
+#a1:active {
+    color: springgreen;
+    text-decoration: underline;
+}
+
+#a2:active {
+    color: blue;
+    text-decoration: line-through;
+}
+
+/* hover */
+
+#a1:hover {
+    color: red;
+    letter-spacing: 21px;
+    font-weight: 600;
+    font-family: Cambria;
+}
+
+#a1:hover {
+    color: rgb(32, 132, 199);
+    letter-spacing: 11px;
+    font-weight: 340;
+    font-family: Georgia;
+}

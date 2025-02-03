@@ -1,0 +1,17 @@
+
+table {
+    width: 50%;
+    font-family: Cambria;
+    background-color: aquamarine;
+    border-collapse: collapse;
+    margin-left: 14em;
+}
+
+tr:nth-child(1) {
+    background-color: rgb(0, 255, 191);
+}
+
+
+h1 {
+    text-align: center;
+}
