@@ -1,0 +1,44 @@
+
+/* Dispaly: Inline */
+
+.Div1 {
+    background-color: rgb(170, 15, 15);
+    color: white;
+    text-align: center;
+    font-family: Cambria;
+    font-size: 25px;
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    display: inline;
+}
+
+
+/* Dispaly: block */
+
+.Div2 {
+    background-color: rgb(0, 255, 106);
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    display: block;
+}
+
+
+/* Dispaly: Inline-block */
+
+.Div3 {
+    background-color: rgb(98, 0, 255);
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+}

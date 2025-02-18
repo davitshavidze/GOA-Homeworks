@@ -1,0 +1,28 @@
+
+
+.Div1 {
+    -webkit-text-emphasis: circle #0b8365;
+    text-emphasis: circle #a30202;
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+}
+  
+.Div2 {
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+}
+
+.Div3 {
+    -webkit-backdrop-filter: blur(22px);
+    backdrop-filter: blur(12px);
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+}
