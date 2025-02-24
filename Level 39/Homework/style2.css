@@ -1,0 +1,55 @@
+
+
+#div1 {
+    color: black;
+    background-color: cadetblue;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-family: Cambria;
+    width: 100px;
+    height: 150px;
+    text-align: center;
+
+    transition: 1s;
+}
+
+#div1:hover {
+    transform: translate(50px, 20px);
+}
+
+
+#div2 {
+    color: black;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-family: monospace;
+    width: 100px;
+    height: 150px;
+    text-align: center;
+
+    transition: 1s;
+}
+
+#div2:hover {
+    transform: rotate(360deg);
+}
+
+
+#div3 {
+    color: black;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-family: cursive;
+    width: 100px;
+    height: 150px;
+    text-align: center;
+
+    transition: 1s;
+}
+
+
+#div3 {
+    transform: scale(11.5em);
+}

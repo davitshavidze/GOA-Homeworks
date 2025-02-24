@@ -1,0 +1,69 @@
+
+
+/* Css code for FrontEnd Mentor */
+
+body {
+    background-color: #0D1A2D;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #14253D;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.card p {
+    font-size: 1em;
+    color: #8BACD9;
+    margin: 10px 0;
+}
+
+.card .price {
+    color: #00FFF8;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.card .time-left {
+    color: #8BACD9;
+    margin: 10px 0;
+}
+
+.card .creator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card .creator img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.card .creator a {
+    color: #00FFF8;
+    text-decoration: none;
+}
