@@ -1,0 +1,39 @@
+
+div {
+    color: white;
+    background-color: rgb(35, 172, 35);
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: Cambria;
+
+    animation: CSS 5s 1;
+}
+
+@keyframes CSS {
+    0% {
+        background-color: rgb(35, 172, 35);
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(20deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    55% {
+        transform: rotate(0deg);
+    }
+
+    70% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}

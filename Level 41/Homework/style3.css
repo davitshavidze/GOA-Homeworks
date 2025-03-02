@@ -1,0 +1,41 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111;
+  }
+  
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+ }
+  
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: #ffcc00;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: moveAndScale 2s infinite alternate ease-in-out;
+}
+  
+@keyframes moveAndScale {
+    0% {
+      transform: translate(-50%, -50%) scale(1);
+      background-color: #ffcc00;
+    }
+    50% {
+      transform: translate(-30%, -30%) scale(1.2);
+      background-color: #ff6600;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(1);
+      background-color: #ffcc00;
+    }
+}
+  

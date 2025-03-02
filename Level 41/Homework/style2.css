@@ -1,0 +1,32 @@
+
+div {
+    color: black;
+    font-family: Cambria;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+
+    animation-name: div;
+    animation-duration: 10s;
+
+}
+
+@keyframes div {
+    0% {
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(400px);
+    }
+    50% {
+        transform: translateY(200px);
+    }
+    75% {
+        transform: translateX(-400px);
+    }
+    100% {
+        transform: translateY(-200px);
+    }
+
+}
