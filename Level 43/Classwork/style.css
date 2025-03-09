@@ -1,0 +1,82 @@
+
+* {
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+:root {
+    --pColor: red;
+    --pBackColor: green;
+    --pFontSize: 1.7em;
+    --pLetterSpacing: 5px;
+    --pDisplay: inline;
+    --pPadding: 5px;
+    --pMargin: 5px 15px;
+    --pPosition: fixed;
+    --pTransform: scale(2, 0.5);
+    --pTransition: all 2s;
+
+
+    --h1Color: blue;
+    --h1BackColor: gray;
+    --h1FontSize: 1.3em;
+    --h1LetterSpacing: 3px;
+    --h1Display: block;
+    --h1Padding: 7px;
+    --h1Margin: 2px 13px;
+    --h1Position: static;
+    --h1Transform: rotate(20deg);
+    --h1Transition: all 5s;
+
+
+    --btnColor: yellow;
+    --btnBackColor: pink;
+    --btnFontSize: 1.9em;
+    --btnLetterSpacing: 13px;
+    --btnDisplay: inline-block;
+    --btnPadding: 12px;
+    --btnMargin: 51px 23px;
+    --btnPosition: static;
+    --btnTransform: skewY(25deg);
+    --btnTransition: all 8s;
+}
+
+p {
+    color: var(--pColor);
+    background-color: var(--pBackColor);
+    font-size: var(--pFontSize);
+    letter-spacing: var(--pLetterSpacing);
+    display: var(--pDisplay);
+    padding: var(--pPadding);
+    margin: var(--pMargin);
+    position: var(--pPosition);
+    transform: var(--pTransform);
+    transition: var(--pTransition);
+}
+
+h1 {
+    color: var(--h1Color);
+    background-color: var(--h1BackColor);
+    font-size: var(--h1FontSize);
+    letter-spacing: var(--h1LetterSpacing);
+    display: var(--h1Display);
+    padding: var(--h1Padding);
+    margin: var(--h1Margin);
+    position: var(--h1Position);
+    transform: var(--h1Transform);
+    transition: var(--h1Transition);
+}
+
+button {
+    color: var(--btnColor);
+    background-color: var(--btnBackColor);
+    font-size: var(--btnFontSize);
+    letter-spacing: var(--btnLetterSpacing);
+    display: var(--btnDisplay);
+    padding: var(--btnPadding);
+    margin: var(--btnMargin);
+    position: var(--btnPosition);
+    transform: var(--btnTransform);
+    transition: var(--btnTransition);
+}
