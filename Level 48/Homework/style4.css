@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: gray;
+
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'aside main main'
+    'aside sec1 sec2';
+}
+
+main, header, aside, section {
+    color: white;
+    text-align: center;
+    margin: 15px;
+    place-content: center;
+}
+
+main {
+    grid-area: main;
+    background-color: rgb(66, 245, 161);
+}
+
+header {
+    grid-area: header;
+    background-color: rgb(245, 155, 66);
+}
+
+aside {
+    grid-area: aside;
+    background-color: rgb(33, 138, 96);
+}
+
+.sec1 {
+    grid-area: sec1;
+    background-color: rgb(199, 50, 20);
+}
+
+.sec2 {
+    grid-area: sec2;
+    background-color: rgb(245, 155, 66);
+}
